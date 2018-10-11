@@ -12,13 +12,13 @@
     margin-left: 0;
     margin-right: 0;
     left: 0.4666667rem;
-    height: 15.733333rem;
     top: 15%;
     overflow: hidden;
     z-index: 21474836450;
     display: block;
     margin-top: -140px;
 }
+.showBox .inner{height:13rem;overflow-y:scroll;}
 .showBox .titles{font-size:0.4rem;padding-top:0.8rem;padding-bottom:0.2rem;padding-left:0.3rem;}
 .tip{width:0.1rem;}
 .report-message{margin-top: 0.4rem;display: -webkit-flex;display: flex;}
