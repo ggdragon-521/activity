@@ -29,7 +29,7 @@
 	</div>
 	<div id="main" v-for="data in videoList">
 		<div id="video">
-			<video  preload="auto" controls id="media" onplay="begin_playing();">
+			<video  preload="auto" webkit-playsinline="true" playsinline="playsinline"  controls id="media" onplay="begin_playing();">
 			   <source src="video/1.mp4" type="video/mp4">
 				<track src="video/captions.vtt" kind="subtitles" label="中文字幕" srclang="zh" default>
 			</video>

@@ -27,9 +27,10 @@
 .options{margin-top:0.1333rem;}
 .options li{font-size:0.373rem;color:#333333;line-height:0.667rem;padding-left:0.1667rem;}
 .options li input{width:0.37rem;height:0.37rem;}
-.button{width:8rem;height:1.0666rem;margin:0.65rem auto 0;background:#3ba554;font-size:0.4rem;color:#fff;border-radius:0.2rem;text-align:center;line-height:1.066rem;}
+.button{width:8rem;height:1.0666rem;margin:0.65rem auto 0;background:#3ba554;font-size:0.4rem;color:#fff;border-radius:0.2rem;text-align:center;line-height:1.066rem;margin-bottom:0.667rem;}
 
   textarea{    	border:0;  	background-color:transparent; color: #666464;height: auto;width:100%;font-size:0.32rem;}
   textarea::-webkit-input-placeholder{
     color:#b6b6b6;
 }
+.video_message button{position:relative;left:0;margin-bottom:0.33rem;}
