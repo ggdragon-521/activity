@@ -1,0 +1,20 @@
+header { width: 100%; height: 1.173333rem; border-bottom: 1px solid #d9d9d9; }
+header .container { width: 9.2rem; margin: 0 auto; height: 1.173333rem; }
+.return { width: 0.533333rem; height: 0.533333rem; margin-top: 0.32rem; }
+header .container span { font-size: 0.48rem; color: #333; margin-left: 3.6rem; font-weight: bold; position: relative; bottom: 0.093333rem; letter-spacing: 0.05rem; }
+#main { background: #f3f5f7; }
+#main .container { width: 9.2rem; margin: 0 auto; }
+button,
+input { width: 9.2rem; height: 1.066667rem; background: #fff; color: #999; border: 1px solid #efefef; border-top: none; text-indent: 1em; font-size: 0.48rem !important; margin-top: 0.4rem !important; }
+#login { background: #5da553; color: #fff; margin-top: 0.666667rem !important; letter-spacing: 0.05rem; border-radius: 0.133333rem; }
+.register a,
+.forgetPwd a { color: #96c092; font-size: 0.373333rem; }
+.forgetPwd { margin-top: 0.666667rem; float: left; }
+.register { margin-top: 0.666667rem; float: right; }
+
+/* 注册 */
+.codeWrap { position: relative; }
+.code { position: absolute; right: 0.4rem; bottom: 0.186667rem; width: 2.493333rem; height: 0.666667rem; border-radius: 0.333333rem; background: #49b0f6; color: #fff; text-indent: 0em; text-align: center; line-height: 0.666667rem; font-size: 0.373333rem !important; }
+
+/* 修改密码 */
+#save { margin-top: 0.666667rem !important; background: #5da553; color: #fff; border-radius: 0.133333rem; }

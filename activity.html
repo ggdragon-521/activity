@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="育灵童 国学经典 教师培训 中小学国学 中华优秀传统文化 国学经典教材  教学成果展示 国学示范课 国学教材解读 北京师范大学 课程与教学研究院">
+	<meta name="description" content="中华优秀传统文化在线教育平台，是育灵童教育集团为广大中小学一线教育工作者打造的，国学教育与教研一站式解决方案">
+	<!-- 忽略识别号码 -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- 忽略识别email -->
+    <meta content="email=no" name="format-detection">
+	<title>中华优秀传统文化师资培训网</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/activity.css">
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+	<script type="text/javascript" src="js/flexible.js"></script>
+	<script type="text/javascript" src="js/sweetalert.min.js"></script>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="container clearfix">
+			<a><img src="images/times.png" class="times"></a>
+			<span>2018年10月07日-2018年10月31日</span>
+		</div>
+	</div>	
+	<div id="main">
+		<div class="container">
+			<ul class="course-list">
+				<li class="clearfix" v-for="data in courseList">
+					<a href="video.html?courseId={{data.id}}">
+						<div class="imgBg"><img :src="data.pic" /><span>观看</span></div>
+						<div class="course-title">
+							<p class="title">{{data.title}}</p>
+							<p class="teacher">主讲：<span>{{data.teacher}}</span></p>
+							<p class="title2 maxLeng1">{{data.info}}</p>
+						</div>
+					</a>
+				</li>	
+			</ul>
+		</div>
+		<div class="fix-height"></div>
+		<div class="course-wrap">
+			<div class="course-message">
+				<div class="tip"></div>
+				<div class="course-check">
+					<p>本期课程你最喜欢哪一个？</p>
+					<div v-for="(index,list1) in courseList" :key="index">
+						<div class="checkbox">
+							<input type="radio" @click="checkList1(list1.lesson_id)" class="check" name="check"><label class="little" cid="{{list1.lesson_id}}"><span>{{list1.title}}</span></label>
+						</div>
+					</div> 
+                    <div class="button" @click="vote()">投票</div>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="fix-height"></div>
+		<div class="course-wrap">
+			<div class="course-message">
+				<div class="tip"></div>
+				<div class="course-check">
+					<p style="margin-bottom:0px;">下期您最想看的课程是？</p>
+					<div v-for="(index,list2) in courseList2" :key="index">
+						<div class="checkboxs">
+							<input type="radio" @click="checkList2(list2.lesson_id)" class="check" name="checks"><label class="little" cid="{{list2.lesson_id}}"><span>{{list2.title}}</span></label>
+							<p><span>主讲</span>{{list2.teacher}}</p>
+							<div class="newStr">{{list2.info}}</div>
+						</div>
+					</div> 
+                    <div class="button" @click="vote2()">投票</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		//限制介绍字数两行maxlength
+		var maxLength=function(ele,num){
+			$(ele).each(function(i){
+				var str=$(this).html();
+				if(str.length>num){
+					var newStr=str.substring(0, num);
+					$(this).html(newStr+'...');	
+				}
+			})
+		}
+		maxLength('.maxLeng1',26)
+
+		</script>
+</body>
+</html>
+<script src="js/vue.min.js"></script>
+<script src="js/activity.js"></script>

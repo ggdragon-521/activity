@@ -1,0 +1,24 @@
+header .container span { margin-left: 3.12rem; }
+#main .t_list { width: 100%; height: 2.16rem; border-bottom: 1px solid #d9d9d9; }
+#main .t_list:last-child { border-bottom: 0; }
+#main .container { width: 9.2rem; margin: 0.4rem auto; display: -webkit-flex; display: flex; justify-content: space-between; }
+.t_img { width: 1.6rem; height: 1.6rem; background: #ccc; border-radius: 50%; }
+.t_name { width: 7.066667rem; font-size: 0.4rem; color: #333; }
+.t_name p:last-child { font-size: 0.32rem; color: #666; margin-top: 0.2rem; }
+
+/* 名师详情 */
+#main .container1 { width: 9.2rem; margin: 0.4rem auto 0; }
+.head-portrait { width: 1.92rem; height: 1.92rem; background: #ccc; border-radius: 50%; margin: 0 auto; overflow: hidden; }
+.teacher_name { color: #333; font-size: 0.48rem; text-align: center; margin-top: 0.4rem; margin-bottom: 0.4rem; }
+.teacher-introduce { text-indent: 2em; font-size: 0.4rem; color: #333; text-align: justify; margin-bottom: 0.4rem; }
+.up,
+.down { width: 0.32rem; height: 0.16rem; }
+.teacher-content { text-align: center; width: 9.2rem; padding-bottom: 0.4rem; border-bottom: 1px solid #d9d9d9; }
+.teacher-content+p { color: #333; font-size: 0.4rem; font-weight: bold; margin: 0.4rem 0 0 0; }
+.c_img { width: 4.266667rem; height: 2.4rem; background: #ccc; }
+.c_list li { margin-top: 0.4rem; font-size: 0.373333rem; color: #333; }
+.teacher { font-size: 0.32rem; color: #999; position: relative; }
+.c_list li p:first-of-type { margin: 0.24rem 0; width: 4.266667rem; color: #333; }
+.c_list { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; flex-wrap: wrap; justify-content: space-between; padding-bottom: 0.266667rem; }
+.teacher { display: -webkit-flex; display: flex; justify-content: space-between; }
+.price { color: #f39800; font-size: 0.32rem; }

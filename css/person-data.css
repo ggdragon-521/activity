@@ -1,0 +1,10 @@
+header .container span { margin-left: 3.12rem; }
+#main { background: #fafafa; }
+.fix-height { width: 100%; height: 0.266667rem; border-bottom: 1px solid #d9d9d9; }
+.person-msg { height: 1.16rem; border-bottom: 1px solid #d9d9d9; background: #fff; }
+.person-msg .container { width: 9.2rem; margin: 0 auto; font-size: 0.4rem; color: #999; line-height: 1.16rem; }
+.person-msg .container input { background: #fff; border: none; width: 7.6rem; text-indent: 1em; text-align: left; color: #333; }
+.password span { color: #333; font-size: 0.4rem; }
+.confirm-modify { width: 100%; height: 1.6rem; background: #fff; border-top: 1px solid #d9d9d9; position: absolute; left: 0; bottom: 0; }
+.confirm-modify div { width: 9.2rem; height: 1.173333rem; background: #5da553; margin: 0.213333rem auto; color: #fff; font-size: 0.48rem; text-align: center; line-height: 1.173333rem; border-radius: 0.133333rem; }
+.xm,.phone{color: #999!important;}

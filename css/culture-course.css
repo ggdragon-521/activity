@@ -1,0 +1,8 @@
+#main .container { width: 9.2rem; margin: 0 auto; }
+.c_img { width: 4.266667rem; height: 2.4rem; background: #ccc; }
+.c_list li { margin-top: 0.4rem; font-size: 0.373333rem; color: #333; }
+.teacher { font-size: 0.32rem; color: #999; position: relative; }
+.c_list li p:first-of-type { margin: 0.24rem 0; width: 4.266667rem; color: #333;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.c_list { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; flex-wrap: wrap; justify-content: space-between; }
+.teacher { display: -webkit-flex; display: flex; justify-content: space-between; }
+.price { color: #f39800; font-size: 0.32rem; }

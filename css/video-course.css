@@ -1,0 +1,124 @@
+header .container span { margin-left: 3.613333rem; }
+.star { width: 0.453333rem; height: 0.453333rem; position: absolute; right: 0.4rem; top: 0.346667rem; }
+#video { width: 100%; height: auto; background: #ccc; position: relative;}
+#video video { width: 100%; }
+.video-introduce { width: 10.0rem; height: 1.146667rem; margin: 0 auto; border-bottom: 1px solid #d9d9d9; margin-top: 0.066667rem; }
+.video-introduce ul { display: -webkit-flex; display: flex; justify-content: space-between; position: relative; }
+.video-introduce ul li { width: 5.0rem; text-align: center; line-height: 1.146667rem; font-size: 0.4rem; color: #333; }
+.video-introduce ul li a { color: #333; }
+.bg { width: 5.0rem; height: 0.04rem; border-radius: 0.04rem; background: #5da553; position: absolute; left: 0; bottom: 0; }
+.active { color: #5da553 !important; }
+.tip { width: 0.2rem; height: 0.4rem; background: #5da553; }
+.fix-height { height: 0.266667rem; background: #fafafa; }
+.video_message { margin-top: 0.4rem; display: -webkit-flex; display: flex; }
+.video-wrap1 { width: 10.0rem; margin: 0 auto; }
+.course-detail { width: 9.2rem; margin-left: 0.293333rem; border-bottom: 1px solid #d9d9d9; padding-bottom: 0.266667rem; }
+.video_message:last-child .course-detail { border-bottom: 0; }
+.course-detail .title{font-size: 0.4rem;color: #5da553;line-height: 0.4rem;margin-bottom: 0.266667rem;}
+.course-detail .money{font-size: 0.4rem;color: #ff7b00;line-height: 0.4rem;margin-bottom: 0.266667rem;float:right;}
+.course-detail p { font-size: 0.4rem; color: #333; line-height: 0.4rem; margin-bottom: 0.266667rem; }
+.course-detail div { font-size: 0.32rem; color: #666; background: #f5f5f5; text-align: justify; line-height: 0.55rem; padding: 0.266667rem 0.266667rem; }
+.up,
+.down { width: 0.32rem; height: 0.16rem; margin: 0.266667rem auto 0; display: block; }
+.video-wrap2 .container { margin: 0 auto; width: 9.2rem; }
+.video-wrap2 { border-top: 1px solid #d9d9d9; padding-bottom: 0.266667rem; }
+.video-wrap2 .container p { font-size: 0.4rem; color: #333; margin-top: 0.4rem; }
+.course-list li a img { width: 0.48rem; height: 0.48rem; vertical-align: text-bottom; margin-right: 0.266667rem; margin-left: 0.266667rem; }
+.course-list li a { height: 0.746667rem; line-height: 0.746667rem; margin-top: 0.4rem; border: 1px solid #e3e3e3; border-radius: 0.373333rem; display: inline-block; padding-right: 0.266667rem; }
+.course-list li a span { color: #666; font-size: 0.373333rem; }
+.video_message button{position:fixed;bottom:0px; left:0.506rem;width:90%;margin:0 auto;height:1.2rem;background:#5da553;text-align:center;color:#fff;font-size:0.42rem;border-radius:0.13333rem;}
+.str p,.newStr p{font-size: 0.32rem!important;color: #666!important;}
+footer { width: 100%; height: 1.653333rem; border-top: 1px solid #d9d9d9;background: #fafafa; }
+footer p { line-height: 1.653333rem; font-size: 0.32rem; color: #666; text-align: center; }
+footer div { width: 2.666667rem; height: 1px; position: absolute; background: #d9d9d9; }
+footer div:first-child { top: 0.826667rem; }
+footer div:last-child { top: 0.826667rem; right: 0 }
+/*加载动画*/
+	
+.pdq-load-wrap {
+	width: 100%;
+	/* height: 100%; */
+	z-index: 21474836450;
+	background: #1f2429;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	display: none;
+}
+
+.pdq-load-wrap .pdq-loading-list {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	height: 30px;
+	margin: auto;
+}
+
+.pdq-load-wrap .pdq-loading-list i {
+	float: left;
+	margin: 0 4px;
+	display: block;
+	width: 5px;
+	height: 30px;
+	background: #fff;
+	-webkit-transform: scaleY(0.8);
+	-ms-transform: scaleY(0.8);
+	transform: scaleY(0.8);
+	-webkit-animation: load 1.2s infinite;
+	animation: load 1.2s infinite;
+}
+
+.pdq-load-wrap .pdq-loading-list i:nth-child(2) {
+	-webkit-animation-delay: 0.1s;
+	animation-delay: 0.1s
+}
+
+.pdq-load-wrap .pdq-loading-list i:nth-child(3) {
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s
+}
+
+.pdq-load-wrap .pdq-loading-list i:nth-child(4) {
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s
+}
+
+.pdq-load-wrap .pdq-loading-list i:nth-child(5) {
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s
+}
+
+.pdq-load-wrap .pdq-loading-list i:nth-child(6) {
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s
+}
+
+@-webkit-keyframes load {
+	0%,
+	40%,
+	100% {
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5)
+	}
+	20% {
+		-webkit-transform: scaleY(01);
+		transform: scaleY(01)
+	}
+}
+
+@keyframes load {
+	0%,
+	40%,
+	100% {
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5)
+	}
+	20% {
+		-webkit-transform: scaleY(01);
+		transform: scaleY(01)
+	}
+}

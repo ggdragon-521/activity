@@ -1,0 +1,71 @@
+.order_list_item{margin-bottom:0.906rem;}
+.fix-height { height: 0.266667rem; background: #fafafa; }
+.order_list{width: 100%;font-size: 0.146rem;color: #3c4a55;overflow: hidden;}
+.order_list div{    float: none;}
+.order_card{margin-bottom: 0.12rem;background: #fff;}
+.order_card_info{padding: 0 0.26rem 0 0.26rem;line-height: 0.56rem;font-size: 0.32rem;color: #3c4a55;background: #fafafa;border-top:1px solid #e6eaf2;border-bottom:1px solid #e6eaf2;}
+.order_body{padding: 0.4rem 0.4rem 0.26667rem 0.4rem;background: #f7f9fc;font-size: 0;height:100%;overflow:hidden;}
+.f-fl{display:inline-block;float:left;}
+.f-fl img{width: 3.88rem;height: 2.2rem; float:left !important;background: #E6EAF2;}
+.order_right{margin-left: 4.2rem;font-size: 0.346rem;}
+.right_title{display:block;text-decoration:none;}
+.right_title .titles{font-size:0.373rem;color: #3c4a55;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;text-decoration: none;}
+.sub_order_des{padding-top: 0.173rem;padding-bottom: 0.173rem;font-size: 0.346rem;color: #99a4bf;line-height: 0.346rem;}
+.order_right .price{float:left;color:#99a4bf;}
+.f16{height:16px;}
+.orders{font-size:0.346rem;text-align:right;}
+.money_value{color:#ff4400;}
+.right_info{padding: 0.093rem 0.2rem 1.2rem 0.2rem;color: #70788c;background:#f7f8fc;}
+.oper{display: inline-block;height: 0.8rem;float: left !important;}
+.status{display: inline-block;height: 0.8rem;float: right !important;}
+.go-btn{-webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    -ms-border-radius: 0.1rem;
+    -o-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+    float: right;
+    border: 1px solid #ffa500;
+    margin-right: 0.1333rem;
+    color: #fff;
+    background:#ffa500;
+    font-size:0.53rem;}
+.cancel-btn{
+	-webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    -ms-border-radius: 0.1rem;
+    -o-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+    float: right;
+    border: 1px solid #ccc;
+    margin-right: 0.1333rem;
+    color: #99a4bf;
+    background:#f2f6f1;
+    font-size:0.53rem;
+}
+.close-btn{
+	-webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    -ms-border-radius: 0.1rem;
+    -o-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+    float: right;
+    border: 1px solid #ff6600;
+    margin-right: 0.1333rem;
+    color: #fff;
+    background:#ff6600;
+    font-size:0.53rem;
+}
+.study-btn{
+	-webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    -ms-border-radius: 0.1rem;
+    -o-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+    float: right;
+    border: 1px solid #5da553;
+    margin-right: 0.1333rem;
+    color: #fff;
+    background:#5da553;
+    font-size:0.53rem;
+}
+.right_info span{padding: 4px 40px;}

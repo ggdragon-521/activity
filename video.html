@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="育灵童 国学经典 教师培训 中小学国学 中华优秀传统文化 国学经典教材  教学成果展示 国学示范课 国学教材解读 北京师范大学 课程与教学研究院">
+	<meta name="description" content="中华优秀传统文化在线教育平台，是育灵童教育集团为广大中小学一线教育工作者打造的，国学教育与教研一站式解决方案">
+	<!-- 忽略识别号码 -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- 忽略识别email -->
+    <meta content="email=no" name="format-detection">
+	<title>中华优秀传统文化师资培训网</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+	<link rel="stylesheet" type="text/css" href="css/video-course.css">
+    <link rel="stylesheet" type="text/css" href="css/video.css">
+
+	<script type="text/javascript" src="js/flexible.js"></script>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="container clearfix" v-for="data in videoList">
+			<a href="javascript:history.go(-1)"><img src="images/return.png" class="return"></a>
+			<span>{{data.title}}</span>
+			<img src="images/Star2@2x.png" class="star">
+		</div>
+	</div>
+	<div id="main" v-for="data in videoList">
+		<div id="video">
+			<video  preload="auto" controls id="media" onplay="begin_playing();">
+			   <source src="video/1.mp4" type="video/mp4">
+				<track src="video/captions.vtt" kind="subtitles" label="中文字幕" srclang="zh" default>
+			</video>
+			<!--加载动画-->
+			<div id="pdq-load-wrap" class="pdq-load-wrap">
+				<ul id="pdq-loading-list" class="pdq-loading-list">
+					<i></i>
+					<i></i>
+					<i></i>
+					<i></i>
+					<i></i>
+				</ul>
+			</div>		
+		</div>
+		<div class="fix-height"></div>
+		<div class="video-wrap1">
+		<!-- 改 -->
+			<div class="video_message">
+				<div class="tip"></div>
+				<div class="course-detail">
+					<p>主讲：{{data.teacher}}</p>
+					<div class="str">{{data.intro}}</div>
+				</div>
+			</div>
+			<div class="video_message">
+				<div class="tip"></div>
+				<div class="course-detail">
+					<p>课程介绍</p>
+					<div class="str">{{data.info}}</div>
+				</div>
+			</div>
+			<div class="video_message">
+				<div class="tip"></div>
+				<div class="course-detail">
+					<p>意见和建议</p>
+					<div class="str"><textarea id="textarea" rows="4" cols="20" placeholder="请介绍自己...">
+						
+					</textarea></div>
+				</div>
+			</div>
+		</div>
+		<!-- 改 -->
+		<div class="video_message">
+			<button @click="submit()">提交</button>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<div class="showBox">
+		<p class="titles">问卷调查 （请选择您认为的一个最佳选项）</p>
+		<div class="report-message">
+			<div class="tip"></div>
+			<div class="report-detail">
+				<p>1.您最需要下列哪一类课程？</p>
+				<ul class="options">
+				  <li><input type="radio" name="check" value=1>
+				   A.经典类课程（经、史、子、集等经典的解读）
+                  </li>
+                  <li><input type="radio" name="check" value=2>
+				   B.国艺类课程（琴、棋、书、画、戏曲、茶艺等技艺的传授）
+                  </li>
+                  <li><input type="radio" name="check" value=3>
+				   C.通识类课程（传统文化概论、中国文化常识等）
+                  </li>
+                  <li><input type="radio" name="check" value=4>
+				   D.教材教法类课程（国学教材的解读、教学建议、示范课等）
+                  </li>
+                  <li><input type="radio" name="check" value=5>
+				   E.语文类课程（关于现行语文教材中的古诗文教学的课程））
+                  </li>
+				</ul>
+			</div>
+		</div>
+		<div class="report-message">
+			<div class="tip"></div>
+			<div class="report-detail">
+				<p>2.您在国学培训上的消费习惯是什么？</p>
+				<ul class="options">
+				  <li><input type="radio" name="checks" value=1>
+				   A.可以花费大量时间和精力搜集、筛选学习资料，但不愿意花钱购买
+                  </li>
+                  <li><input type="radio" name="checks" value=2>
+				   B.有急需时，愿意花费5-10元购买
+                  </li>
+                  <li><input type="radio" name="checks" value=3>
+				   C.愿意一次花费50-100元，学习某一门课程
+                  </li>
+                  <li><input type="radio" name="checks" value=4>
+				   D.愿意每年付出500-1000元，系统地学习某几门课程
+                  </li>
+                  
+				</ul>
+			</div>
+		</div>
+		<div class="button" @click="put()">提交</div>
+	</div>
+</body>
+</html>
+<script src="js/vue.min.js"></script>
+<script src="js/video.js"></script>

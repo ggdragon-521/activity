@@ -1,0 +1,8 @@
+#main .container { width: 9.2rem; margin: 0 auto; }
+.c_img { width: 4.266667rem; height: 2.4rem; background: #ccc; }
+.c_list li { margin-top: 0.4rem; font-size: 0.373333rem; color: #333; width: 4.266667rem;}
+.teacher { font-size: 0.32rem; color: #999; position: relative;}
+.c_list li p:first-of-type { margin: 0.24rem 0 ;width: 3.2rem;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.c_list { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; flex-wrap: wrap; justify-content: space-between; }
+.teacher img{width: 0.453333rem;height: 0.453333rem;position: absolute;right: 0;bottom: 0}
+.price{position: absolute;font-size: 0.32rem;color: #f39800;right: 0rem;bottom: 0.666667rem;}

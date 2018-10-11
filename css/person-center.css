@@ -1,0 +1,16 @@
+header .container span { margin-left: 3.12rem; }
+#main { background: #fafafa; }
+.fix-height { width: 100%; height: 0.266667rem; border-bottom: 1px solid #d9d9d9; background: #fafafa; }
+.wrap-list { width: 100%; height: 1.16rem; border-bottom: 1px solid #d9d9d9; background: #fff; }
+.wrap-list .container { width: 9.2rem; height: 1.16rem; margin: 0 auto; font-size: 0.4rem; color: #333; position: relative;}
+.my-course { float: left; }
+.my-course img { width: 0.52rem; height: 0.586667rem; vertical-align: text-bottom; margin-top: 0.293333rem; }
+.my-course span { margin-left: 0.373333rem; vertical-align: text-bottom; color: #333; }
+.look-course { float: right; margin-top: 0.266667rem; }
+.look-course span { margin-right: 0.4rem; font-size: 0.32rem; color: #999; }
+.look-course img { width: 0.28rem; height: 0.4rem; vertical-align: middle; }
+.person-message { float: left; }
+.person-message img { width: 0.586667rem; height: 0.586667rem; margin-top: 0.293333rem; }
+.person-message span { margin-left: 0.266667rem; vertical-align: super; color: #333; }
+.exit { width: 100%; height: 1.2rem; line-height: 1.2rem; text-align: center; color: red; font-size: 0.4rem; border-top: 1px solid #d9d9d9; border-bottom: 1px solid #d9d9d9; margin-top: 0.666667rem; background: #fff; }
+.warn{width: 0.2rem;height: 0.2rem;background: #cc2b3a;position: absolute;right: 0.6rem;top: 0.4rem;border-radius: 50%;}

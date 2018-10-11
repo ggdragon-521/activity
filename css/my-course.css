@@ -1,0 +1,14 @@
+header .container span { margin-left: 3.12rem; }
+#main { width: 100%; }
+#main .container { width: 9.2rem; margin: 0 auto; }
+.course-img { width: 4.266667rem; height: 2.4rem; background: #ccc; }
+.course-img img { width: 100%; height: 100%; }
+.list { margin-top: 0.4rem; display: -webkit-flex; /* Safari */ display: flex; padding-bottom: 30px; }
+.list:not(:last-child) { border-bottom: 1px solid #d9d9d9; }
+.course-in { margin-left: 0.4rem; font-size: 0.4rem; color: #333; }
+.course-in p { font-size: 0.373333rem; color: #666; margin-top: 0.266667rem; }
+.course-in h1 { width: 4.28rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.course-in p:nth-child(3) { margin-top: 0.186667rem; }
+.course-in span { color: #82cf5b; }
+.progress { width: 4.0rem; height: 0.133333rem; border-radius: 0.066667rem; border: 1px solid #d9d9d9; margin-top: 0.16rem; }
+.progress-tip { width: 40%; height: 0.133333rem; background: #5da553; border-radius: 0.066667rem; }
